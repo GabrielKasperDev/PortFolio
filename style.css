@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1px;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: url(code.png);
+  background: #1d2127 url(code.png);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.welcome {
+  margin: 2px 100px 0px 10px;
+}
+
+header img {
+  margin-top: 4px;
+  margin-left: 43.5%;
+  width: 160px;
+  height: 160px;
+  border-radius: 56%;
+  border: 3.5px solid #7b66ac;
+}
+
+.bntinsta {
+  position: relative;
+  display: inline-block;
+  padding: 1px;
+  margin: 10px;
+  color: #f56b91;
+  border: solid 3px;
+  border-radius: 30px;
+  border-color: #f56b91;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  width: 10%;
+  height: 46px;
+  margin-left: 45%;
+  display: flexbox;
+  border-radius: 10px;
+  background-color: #4a2e69;
+}
+.bntinsta:hover {
+  background-color: #7014e7;
+  color: #050801;
+  box-shadow: 0 0 5px #7014e7, 0 0 25px #f56b91, 0 0 50px #f56b91, 0 0 125px #7014e7;
+}
+
+.bntlinkedin {
+  position: relative;
+  display: inline-block;
+  padding: 1px;
+  margin: 10px;
+  color: #0076b2;
+  border: solid 3px;
+  border-radius: 30px;
+  border-color: #050801;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  width: 10%;
+  height: 46px;
+  margin-left: 45%;
+  display: flexbox;
+  border-radius: 10px;
+  background-color: #0076b2;
+}
+.bntlinkedin:hover {
+  background-color: #0076b2;
+  color: #050801;
+  box-shadow: 0 0 5px #0076b2, 0 0 25px #0076b2, 0 0 50px #0076b2, 0 0 125px #7014e7;
+}
+
+.bntgit {
+  position: relative;
+  display: inline-block;
+  padding: 1px;
+  margin: 10px;
+  color: #ffffff;
+  border: solid 3px;
+  border-radius: 30px;
+  border-color: #050801;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  width: 10%;
+  height: 46px;
+  margin-left: 45%;
+  display: flexbox;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+}
+.bntgit:hover {
+  background-color: #ffffff;
+  color: #050801;
+  box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff, 0 0 50px #e4e4e4, 0 0 125px #000000;
+}
+
+.project {
+  text-align: center;
+  color: #7b66ac;
+}
+
+.full {
+  height: 0px;
+  margin: px;
+}
+.git {
+  height: 30px;
+  width: 40px;
+  text-align: center;
+}
+
+.insta {
+  height: 39px;
+  width: 40px;
+  text-align: center;
+}
+
+.linkedin {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Arial";
+}
+
+h2 {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Arial";
+}
